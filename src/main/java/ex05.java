@@ -10,5 +10,11 @@ public class ex05 {
         System.out.println("Número do dia da semana: ");
         int dia = scanner.nextInt();
 
+        if (dia >= 1 && dia <= 7) {
+            System.out.println("Dia: " + diasSemana[dia-1]);
+        } else {
+            System.out.println("Valor inválido!");
+        }
+
     }
 }
